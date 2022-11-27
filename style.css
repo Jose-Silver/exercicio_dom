@@ -1,0 +1,30 @@
+body {
+    font: normal 15px Arial;
+}
+
+#sessao-venda {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#itens_section {
+    display: flex;
+    flex-wrap: wrap;
+    overflow-wrap: normal;
+    gap: 2rem;
+}
+
+#itens_section div img {
+    width: 20vw;
+    height: auto;
+}
+
+#itens_section div {
+    width: 25vw;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow-wrap: break-word;
+}
